@@ -124,21 +124,6 @@
     <resources>
         <image name="img.php.png" width="215" height="267"/>
     </resources>
-    <classes>
-        <class className="TriangleCalcViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/TriangleCalcViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="clear"/>
-                <relationship kind="action" name="solve"/>
-                <relationship kind="outlet" name="fieldA" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="fieldAlpha" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="fieldB" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="fieldBeta" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="fieldC" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="statusLabel" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

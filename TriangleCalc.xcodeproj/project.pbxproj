@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C7C30D216148B17005E0DBD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C7C30D116148B17005E0DBD /* Default-568h@2x.png */; };
+		2C8EED9F16ADBBE100CDA41D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C8EED9E16ADBBE100CDA41D /* Default-568h@2x.png */; };
 		5ACA8804155AF09400357E5B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ACA8803155AF09400357E5B /* UIKit.framework */; };
 		5ACA8806155AF09400357E5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ACA8805155AF09400357E5B /* Foundation.framework */; };
 		5ACA8808155AF09400357E5B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ACA8807155AF09400357E5B /* CoreGraphics.framework */; };
@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2C7C30D116148B17005E0DBD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2C8EED9E16ADBBE100CDA41D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		5ACA87FF155AF09400357E5B /* TriangleCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TriangleCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ACA8803155AF09400357E5B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5ACA8805155AF09400357E5B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -54,7 +54,7 @@
 		5ACA87F4155AF09400357E5B = {
 			isa = PBXGroup;
 			children = (
-				2C7C30D116148B17005E0DBD /* Default-568h@2x.png */,
+				2C8EED9E16ADBBE100CDA41D /* Default-568h@2x.png */,
 				5ACA8809155AF09400357E5B /* TriangleCalc */,
 				5ACA8802155AF09400357E5B /* Frameworks */,
 				5ACA8800155AF09400357E5B /* Products */,
@@ -158,7 +158,7 @@
 				5ACA880E155AF09400357E5B /* InfoPlist.strings in Resources */,
 				5ACA8817155AF09400357E5B /* MainStoryboard.storyboard in Resources */,
 				5ACA8823155AF68D00357E5B /* img.php.png in Resources */,
-				2C7C30D216148B17005E0DBD /* Default-568h@2x.png in Resources */,
+				2C8EED9F16ADBBE100CDA41D /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
