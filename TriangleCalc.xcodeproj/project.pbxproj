@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C7C30D216148B17005E0DBD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C7C30D116148B17005E0DBD /* Default-568h@2x.png */; };
+		5ACA8804155AF09400357E5B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ACA8803155AF09400357E5B /* UIKit.framework */; };
+		5ACA8806155AF09400357E5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ACA8805155AF09400357E5B /* Foundation.framework */; };
+		5ACA8808155AF09400357E5B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ACA8807155AF09400357E5B /* CoreGraphics.framework */; };
+		5ACA880E155AF09400357E5B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5ACA880C155AF09400357E5B /* InfoPlist.strings */; };
+		5ACA8810155AF09400357E5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACA880F155AF09400357E5B /* main.m */; };
+		5ACA8814155AF09400357E5B /* TriangleCalcAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACA8813155AF09400357E5B /* TriangleCalcAppDelegate.m */; };
+		5ACA8817155AF09400357E5B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ACA8815155AF09400357E5B /* MainStoryboard.storyboard */; };
+		5ACA881A155AF09400357E5B /* TriangleCalcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACA8819155AF09400357E5B /* TriangleCalcViewController.m */; };
+		5ACA8823155AF68D00357E5B /* img.php.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ACA8822155AF68D00357E5B /* img.php.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C7C30D116148B17005E0DBD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5ACA87FF155AF09400357E5B /* TriangleCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TriangleCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ACA8803155AF09400357E5B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5ACA8805155AF09400357E5B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5ACA8807155AF09400357E5B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5ACA880B155AF09400357E5B /* TriangleCalc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TriangleCalc-Info.plist"; sourceTree = "<group>"; };
+		5ACA880D155AF09400357E5B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5ACA880F155AF09400357E5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5ACA8811155AF09400357E5B /* TriangleCalc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TriangleCalc-Prefix.pch"; sourceTree = "<group>"; };
+		5ACA8812155AF09400357E5B /* TriangleCalcAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TriangleCalcAppDelegate.h; sourceTree = "<group>"; };
+		5ACA8813155AF09400357E5B /* TriangleCalcAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TriangleCalcAppDelegate.m; sourceTree = "<group>"; };
+		5ACA8816155AF09400357E5B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		5ACA8818155AF09400357E5B /* TriangleCalcViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TriangleCalcViewController.h; sourceTree = "<group>"; };
+		5ACA8819155AF09400357E5B /* TriangleCalcViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TriangleCalcViewController.m; sourceTree = "<group>"; };
+		5ACA8822155AF68D00357E5B /* img.php.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img.php.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5ACA87FC155AF09400357E5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ACA8804155AF09400357E5B /* UIKit.framework in Frameworks */,
+				5ACA8806155AF09400357E5B /* Foundation.framework in Frameworks */,
+				5ACA8808155AF09400357E5B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5ACA87F4155AF09400357E5B = {
+			isa = PBXGroup;
+			children = (
+				2C7C30D116148B17005E0DBD /* Default-568h@2x.png */,
+				5ACA8809155AF09400357E5B /* TriangleCalc */,
+				5ACA8802155AF09400357E5B /* Frameworks */,
+				5ACA8800155AF09400357E5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5ACA8800155AF09400357E5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5ACA87FF155AF09400357E5B /* TriangleCalc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5ACA8802155AF09400357E5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5ACA8803155AF09400357E5B /* UIKit.framework */,
+				5ACA8805155AF09400357E5B /* Foundation.framework */,
+				5ACA8807155AF09400357E5B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5ACA8809155AF09400357E5B /* TriangleCalc */ = {
+			isa = PBXGroup;
+			children = (
+				5ACA8822155AF68D00357E5B /* img.php.png */,
+				5ACA8812155AF09400357E5B /* TriangleCalcAppDelegate.h */,
+				5ACA8813155AF09400357E5B /* TriangleCalcAppDelegate.m */,
+				5ACA8815155AF09400357E5B /* MainStoryboard.storyboard */,
+				5ACA8818155AF09400357E5B /* TriangleCalcViewController.h */,
+				5ACA8819155AF09400357E5B /* TriangleCalcViewController.m */,
+				5ACA880A155AF09400357E5B /* Supporting Files */,
+			);
+			path = TriangleCalc;
+			sourceTree = "<group>";
+		};
+		5ACA880A155AF09400357E5B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5ACA880B155AF09400357E5B /* TriangleCalc-Info.plist */,
+				5ACA880C155AF09400357E5B /* InfoPlist.strings */,
+				5ACA880F155AF09400357E5B /* main.m */,
+				5ACA8811155AF09400357E5B /* TriangleCalc-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5ACA87FE155AF09400357E5B /* TriangleCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ACA881D155AF09400357E5B /* Build configuration list for PBXNativeTarget "TriangleCalc" */;
+			buildPhases = (
+				5ACA87FB155AF09400357E5B /* Sources */,
+				5ACA87FC155AF09400357E5B /* Frameworks */,
+				5ACA87FD155AF09400357E5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TriangleCalc;
+			productName = TriangleCalc;
+			productReference = 5ACA87FF155AF09400357E5B /* TriangleCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5ACA87F6155AF09400357E5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TriangleCalc;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 5ACA87F9155AF09400357E5B /* Build configuration list for PBXProject "TriangleCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5ACA87F4155AF09400357E5B;
+			productRefGroup = 5ACA8800155AF09400357E5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5ACA87FE155AF09400357E5B /* TriangleCalc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5ACA87FD155AF09400357E5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ACA880E155AF09400357E5B /* InfoPlist.strings in Resources */,
+				5ACA8817155AF09400357E5B /* MainStoryboard.storyboard in Resources */,
+				5ACA8823155AF68D00357E5B /* img.php.png in Resources */,
+				2C7C30D216148B17005E0DBD /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5ACA87FB155AF09400357E5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ACA8810155AF09400357E5B /* main.m in Sources */,
+				5ACA8814155AF09400357E5B /* TriangleCalcAppDelegate.m in Sources */,
+				5ACA881A155AF09400357E5B /* TriangleCalcViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5ACA880C155AF09400357E5B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5ACA880D155AF09400357E5B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5ACA8815155AF09400357E5B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5ACA8816155AF09400357E5B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5ACA881B155AF09400357E5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5ACA881C155AF09400357E5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5ACA881E155AF09400357E5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TriangleCalc/TriangleCalc-Prefix.pch";
+				INFOPLIST_FILE = "TriangleCalc/TriangleCalc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5ACA881F155AF09400357E5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TriangleCalc/TriangleCalc-Prefix.pch";
+				INFOPLIST_FILE = "TriangleCalc/TriangleCalc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5ACA87F9155AF09400357E5B /* Build configuration list for PBXProject "TriangleCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ACA881B155AF09400357E5B /* Debug */,
+				5ACA881C155AF09400357E5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ACA881D155AF09400357E5B /* Build configuration list for PBXNativeTarget "TriangleCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ACA881E155AF09400357E5B /* Debug */,
+				5ACA881F155AF09400357E5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5ACA87F6155AF09400357E5B /* Project object */;
+}
