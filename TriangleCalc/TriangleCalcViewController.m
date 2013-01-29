@@ -30,6 +30,11 @@
 - (IBAction)solveClear:(UIButton *)sender
 {
     sender.selected = !sender.isSelected;
+    
+    self.fieldA.enabled = !self.fieldA.isEnabled;
+    self.fieldB.enabled = !self.fieldB.isEnabled;
+    self.fieldC.enabled = !self.fieldC.isEnabled;
+    self.fieldAlpha.enabled = !self.fieldAlpha.isEnabled;
 
     if (!sender.isSelected)
     {
@@ -45,8 +50,7 @@
         double b = [self.fieldB.text doubleValue];
         double c = [self.fieldC.text doubleValue];
         double alpha = [self.fieldAlpha.text doubleValue];
-        double beta = [self.fieldBeta.text doubleValue];
-        
+        double beta=0;
         if (alpha != 0.0)
         {
             beta = 90.0 - alpha;
