@@ -17,8 +17,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *fieldBeta;
 @property (weak, nonatomic) IBOutlet UILabel *statusLabel;
 
+- (IBAction)solveClear:(UIButton *)sender;
 
-- (IBAction)solve;
-- (IBAction)clear;
 
 @end
