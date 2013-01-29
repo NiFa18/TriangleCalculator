@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2C8EED9E16ADBBE100CDA41D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2C8EED9E16ADBBE100CDA41D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		5ACA87FF155AF09400357E5B /* TriangleCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TriangleCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ACA8803155AF09400357E5B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5ACA8805155AF09400357E5B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -54,7 +54,6 @@
 		5ACA87F4155AF09400357E5B = {
 			isa = PBXGroup;
 			children = (
-				2C8EED9E16ADBBE100CDA41D /* Default-568h@2x.png */,
 				5ACA8809155AF09400357E5B /* TriangleCalc */,
 				5ACA8802155AF09400357E5B /* Frameworks */,
 				5ACA8800155AF09400357E5B /* Products */,
@@ -83,8 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				5ACA8822155AF68D00357E5B /* img.php.png */,
-				5ACA8812155AF09400357E5B /* TriangleCalcAppDelegate.h */,
-				5ACA8813155AF09400357E5B /* TriangleCalcAppDelegate.m */,
 				5ACA8815155AF09400357E5B /* MainStoryboard.storyboard */,
 				5ACA8818155AF09400357E5B /* TriangleCalcViewController.h */,
 				5ACA8819155AF09400357E5B /* TriangleCalcViewController.m */,
@@ -96,6 +93,9 @@
 		5ACA880A155AF09400357E5B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2C8EED9E16ADBBE100CDA41D /* Default-568h@2x.png */,
+				5ACA8812155AF09400357E5B /* TriangleCalcAppDelegate.h */,
+				5ACA8813155AF09400357E5B /* TriangleCalcAppDelegate.m */,
 				5ACA880B155AF09400357E5B /* TriangleCalc-Info.plist */,
 				5ACA880C155AF09400357E5B /* InfoPlist.strings */,
 				5ACA880F155AF09400357E5B /* main.m */,
