@@ -15,13 +15,6 @@
 
 @implementation TriangleCalcViewController
 
-@synthesize fieldA = _fieldA;
-@synthesize fieldB = _fieldB;
-@synthesize fieldC = _fieldC;
-@synthesize fieldAlpha = _fieldAlpha;
-@synthesize fieldBeta = _fieldBeta;
-@synthesize statusLabel = _statusLabel;
-
 - (void)viewDidLoad
 {
     self.statusLabel.text = [NSString stringWithFormat:@"Type in two values"];
