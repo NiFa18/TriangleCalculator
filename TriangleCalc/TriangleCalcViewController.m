@@ -10,7 +10,7 @@
 #include "math.h"
 
 @interface TriangleCalcViewController ()
-
+@property (nonatomic) BOOL angle;       // 0=deg / 1=rad
 @end
 
 @implementation TriangleCalcViewController
@@ -18,6 +18,19 @@
 - (void)viewDidLoad
 {
     self.statusLabel.text = [NSString stringWithFormat:@"Type in two values"];
+}
+
+- (IBAction)angleMode:(UIButton *)sender
+{
+    sender.selected = !sender.isSelected;
+    
+    if (sender.isSelected)
+    {
+        self.angle = YES;
+    } else
+    {
+        self.angle = NO;
+    }
 }
 
 - (IBAction)solveClear:(UIButton *)sender
@@ -28,6 +41,15 @@
     self.fieldB.enabled = !self.fieldB.isEnabled;
     self.fieldC.enabled = !self.fieldC.isEnabled;
     self.fieldAlpha.enabled = !self.fieldAlpha.isEnabled;
+    
+    double ang;
+    
+    if (self.angle) {
+        ang = 1.0;
+    } else
+    {
+        ang = 2*M_PI/360;
+    }
 
     if (!sender.isSelected)
     {
@@ -46,38 +68,38 @@
         double beta=0;
         if (alpha != 0.0)
         {
-            beta = 90.0 - alpha;
+            beta = M_PI/(2*ang) - alpha;
             
             if (c != 0.0)
             {
-                a = c*sin(2*M_PI/360*alpha);
-                b = c*cos(2*M_PI/360*alpha);
+                a = c*sin(ang*alpha);
+                b = c*cos(ang*alpha);
             } else if (b != 0.0)
             {
-                c = b/(cos(2*M_PI/360*alpha));
-                a = c*sin(2*M_PI/360*alpha);
+                c = b/(cos(ang*alpha));
+                a = c*sin(ang*alpha);
             } else if (a != 0.0)
             {
-                c = a/(sin(2*M_PI/360*alpha));
-                b = c*cos(2*M_PI/360*alpha);
+                c = a/(sin(ang*alpha));
+                b = c*cos(ang*alpha);
             }
         } else
         {
             if (c == 0.0)
             {
                 c = sqrt(a*a+b*b);
-                alpha = 360/(2*M_PI)*acos(b/c);
-                beta = 90 - alpha;
+                alpha = acos(b/c)/ang;
+                beta = M_PI/(2*ang) - alpha;
             } else if (b == 0.0)
             {
                 b = sqrt(c*c-a*a);
-                alpha = 360/(2*M_PI)*acos(b/c);
-                beta = 90 - alpha;
+                alpha = acos(b/c)/ang;
+                beta = M_PI/(2*ang) - alpha;
             } else if (a == 0.0)
             {
                 a = sqrt(c*c-b*b);
-                alpha = 360/(2*M_PI)*acos(b/c);
-                beta = 90 - alpha;
+                alpha = acos(b/c)/ang;
+                beta = M_PI/(2*ang) - alpha;
             }
         }
         
